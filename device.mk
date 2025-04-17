@@ -292,6 +292,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
 
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiEsimSwitcher
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
