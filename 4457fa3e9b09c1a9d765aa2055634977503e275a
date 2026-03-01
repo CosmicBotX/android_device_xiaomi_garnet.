@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8125be58_009a8b2e",
+        "filename": "configs/power/powerhint.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-03-01T18:08:02Z",
+      "side": 1,
+      "message": "typo in the meaning of \"940\"\n940800?",
+      "range": {
+        "startLine": 137,
+        "startChar": 0,
+        "endLine": 137,
+        "endChar": 21
+      },
+      "revId": "4457fa3e9b09c1a9d765aa2055634977503e275a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
