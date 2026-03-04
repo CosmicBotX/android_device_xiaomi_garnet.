@@ -120,6 +120,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef2ef1d2_976ec41c",
+        "filename": "configs/power/powerhint.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-03-04T17:25:09Z",
+      "side": 1,
+      "message": "after applying the commit, everything is parsed normally.\n\n$ PYTHONPATH\u003d. python3 main.py ~/DumprX/out -t diwali\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/min_freq: 681000\n/sys/kernel/msm_performance/parameters/cpu_min_freq: 0:1804800 1:1804800 2:1804800 3:1804800 4:1382400 5:1382400 6:1382400 7:1977600\n/proc/sys/walt/sched_boost: 2\n/proc/sys/walt/sched_busy_hysteresis_enable_cpus: 240\n/proc/sys/walt/sched_busy_hyst_ns: 39\n/sys/devices/system/cpu/cpu0/core_ctl/min_cpus: 3\n/proc/sys/walt/sched_min_task_util_for_colocation: 0\n/proc/sys/walt/sched_min_task_util_for_boost: 0\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/max_freq: 933000\n/proc/sys/walt/sched_boost: 1\n/sys/kernel/msm_performance/parameters/cpu_max_freq: 0:1804800 1:1804800 2:1804800 3:1804800 4:2361600 5:2361600 6:2361600 7:2400000\n/sys/kernel/msm_performance/parameters/cpu_min_freq: 0:1363200 1:1363200 2:1363200 3:1363200 4:1382400 5:1382400 6:1382400 7:1766400\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/sample_ms: 33\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/io_percent: 100\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/sample_ms: 33\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/io_percent: 100\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_length: 0\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hist_memory: 0\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_trigger_count: 0\n/sys/devices/system/cpu/cpu4/cpufreq/walt/pl: 0\n/sys/devices/system/cpu/cpu4/cpufreq/walt/hispeed_load: 99\n/sys/kernel/msm_performance/parameters/cpu_max_freq: 4:652800 5:652800 6:652800\n/sys/devices/system/cpu/cpu0/core_ctl/enable: 0\n/sys/devices/system/cpu/cpu4/core_ctl/enable: 0\n/sys/devices/system/cpu/cpu7/core_ctl/enable: 0\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/sample_ms: 33\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/io_percent: 100\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/sample_ms: 33\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/io_percent: 100\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_length: 0\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hist_memory: 0\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_trigger_count: 0\n/sys/kernel/msm_performance/parameters/cpu_max_freq: 4:1132800 5:1132800 6:1132800\n/sys/devices/system/cpu/cpu4/cpufreq/walt/pl: 0\n/sys/devices/system/cpu/cpu0/cpufreq/walt/pl: 0\n/sys/devices/system/cpu/cpu0/cpufreq/walt/hispeed_load: 99\n/proc/sys/walt/sched_upmigrate: 50 85\n/proc/sys/walt/sched_downmigrate: 10 85\n/sys/devices/system/cpu/cpu0/core_ctl/enable: 0\n/sys/devices/system/cpu/cpu4/core_ctl/enable: 0\n/sys/devices/system/cpu/cpu7/core_ctl/enable: 0\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/sample_ms: 16\n/sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/io_percent: 100\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/sample_ms: 16\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/io_percent: 100\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_length: 0\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hist_memory: 0\n/sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_trigger_count: 0\n/sys/kernel/msm_performance/parameters/cpu_max_freq: 4:1132800 5:1132800 6:1132800\n/sys/devices/system/cpu/cpu4/cpufreq/walt/pl: 0\n/sys/devices/system/cpu/cpu0/cpufreq/walt/pl: 0\n/sys/devices/system/cpu/cpu0/cpufreq/walt/hispeed_load: 99\n/proc/sys/walt/sched_upmigrate: 50 85\n/proc/sys/walt/sched_downmigrate: 10 85\n/sys/devices/system/cpu/cpu0/core_ctl/enable: 0\n/sys/devices/system/cpu/cpu4/core_ctl/enable: 0\n/sys/devices/system/cpu/cpu7/core_ctl/enable: 0\n/dev/cpu_dma_latency: 1\n/proc/sys/walt/sched_boost: 1\n/sys/kernel/msm_performance/parameters/cpu_max_freq: 0:614400 1:614400 2:614400 3:614400 4:652800 5:652800 6:652800 7:768000\n/sys/kernel/msm_performance/parameters/cpu_min_freq: 0:614400 1:614400 2:614400 3:614400 4:652800 5:652800 6:652800 7:768000\n/dev/cpuctl/top-app/cpu.shares: 4096\n/dev/cpuctl/camera-daemon/cpu.shares: 4096\n/dev/cpuctl/background/cpu.shares: 512",
+      "parentUuid": "dda30c2a_8dd6a298",
+      "range": {
+        "startLine": 116,
+        "startChar": 17,
+        "endLine": 116,
+        "endChar": 19
+      },
+      "revId": "4457fa3e9b09c1a9d765aa2055634977503e275a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "8125be58_009a8b2e",
