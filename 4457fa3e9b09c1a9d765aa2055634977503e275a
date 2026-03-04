@@ -96,6 +96,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "dda30c2a_8dd6a298",
+        "filename": "configs/power/powerhint.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-03-04T17:11:34Z",
+      "side": 1,
+      "message": "The error is straightforward: the parser expects the Resources\u003d\"...\" attribute to contain a list of numbers separated by commas, but it encountered a token like:\n\n\u00272342             0x40810000\u0027",
+      "parentUuid": "e607b7da_80a3862d",
+      "range": {
+        "startLine": 116,
+        "startChar": 17,
+        "endLine": 116,
+        "endChar": 19
+      },
+      "revId": "4457fa3e9b09c1a9d765aa2055634977503e275a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "8125be58_009a8b2e",
