@@ -72,6 +72,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "e607b7da_80a3862d",
+        "filename": "configs/power/powerhint.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-03-04T17:10:29Z",
+      "side": 1,
+      "message": "$ PYTHONPATH\u003d. python3 main.py ~/DumprX/out -t diwali\nTraceback (most recent call last):\n  File \"/home/user/qcom-perf-parser/main.py\", line 61, in \u003cmodule\u003e\n    powerhints \u003d boostsconfig.parse_boost_xml(powerhint_path)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/qcom-perf-parser/perf_parser/parsers/boostsconfig.py\", line 46, in parse_boost_xml\n    resources\u003dparse_resources(cfg.attrib[\u0027Resources\u0027]),\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/qcom-perf-parser/perf_parser/parsers/boostsconfig.py\", line 14, in parse_resources\n    nums \u003d [int(tok.strip(), 0) for tok in resources_str.split(\u0027,\u0027) if tok.strip()]\n            ^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 0: \u00272342             0x40810000\u0027",
+      "parentUuid": "97f8f970_e04ea362",
+      "range": {
+        "startLine": 116,
+        "startChar": 17,
+        "endLine": 116,
+        "endChar": 19
+      },
+      "revId": "4457fa3e9b09c1a9d765aa2055634977503e275a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "8125be58_009a8b2e",
