@@ -146,6 +146,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "1ea2c21a_36846204",
+        "filename": "configs/power/powerhint.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 30766
+      },
+      "writtenOn": "2026-03-14T03:50:46Z",
+      "side": 1,
+      "message": "the -6 seems normal they seem to use it kernel scrips too \n❯ rg /sys/devices/system/cpu/cpufreq/policy4/walt/boost\ngarnet_global-ota_full-OS2.0.206.0.VNRMIXM-user-15.0-2ac9ef0740/vendor/bin/init.kernel.post_boot-parrot.sh\n82:echo -6 \u003e /sys/devices/system/cpu/cpufreq/policy4/walt/boost",
+      "parentUuid": "ef2ef1d2_976ec41c",
+      "range": {
+        "startLine": 116,
+        "startChar": 17,
+        "endLine": 116,
+        "endChar": 19
+      },
+      "revId": "4457fa3e9b09c1a9d765aa2055634977503e275a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "8125be58_009a8b2e",
         "filename": "configs/power/powerhint.json",
         "patchSetId": 5
