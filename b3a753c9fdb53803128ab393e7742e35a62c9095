@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "851d596d_5ccf1a63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-03-14T10:42:53Z",
+      "side": 1,
+      "message": "echo -6 \u003e /sys/devices/system/cpu/cpufreq/policy7/walt/boost\n\nnormal value",
+      "revId": "b3a753c9fdb53803128ab393e7742e35a62c9095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
